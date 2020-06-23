@@ -12,8 +12,8 @@ class Transport(ABC):
     def __str__(self) -> str:
         return f'{self._ttype} - {self._tmodel} / {self._tweight} tonn'
 
-	@abstractmethod
-	def deliver():
+    @abstractmethod
+    def deliver(self):
         #pass
 
 
